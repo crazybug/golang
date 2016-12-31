@@ -14,4 +14,8 @@ func main() {
 	fmt.Printf("d capacity is %d\n", cap(d))
 	fmt.Println(c)
 
+	for x, y := range a {
+		fmt.Printf("slice %d is value: %s\n", x, y)
+	}
+
 }
