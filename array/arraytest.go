@@ -17,4 +17,8 @@ func main() {
 	arr2d := [...][4]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}
 	fmt.Printf("arr2d length is %d", len(arr2d))
 
+	for x := range arr1 {
+		fmt.Println("arr1's value:", x)
+	}
+
 }
