@@ -17,4 +17,5 @@ func main() {
 	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 	fmt.Println(add(100, 99))
 	fmt.Println(mul(100, 99))
+	fmt.Println(add(60, 90))
 }
